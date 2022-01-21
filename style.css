@@ -111,6 +111,11 @@ h2 {
     width: 200px;
 }
 
+.flex-container label {
+
+
+
+}
 .nueva_venta {
 
     display: flex;
@@ -123,6 +128,28 @@ h2 {
 
     margin-left: 30px;
     text-align: center;
+}
+
+.articulos {
+
+    padding: 10px 10px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 70px;    
+    justify-content: space-between;
+}
+
+.articulos div {
+
+    padding: 0px 30px;
+    border: 1px solid #CED5D7;
+}
+
+body form {
+
+    font-size: 0.9em;
+    line-height: 0.9em;
 }
 /* .wd30 {
     margin: 10px;
